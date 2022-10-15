@@ -206,7 +206,7 @@ ul li {
 /* ====================manu-items */
 
 .menu-items {
-    position: fixed;
+    position: absolute;
     width: 0;
     height: 100vh;
     top: 0;
