@@ -637,10 +637,8 @@ h2 {
 }
 
 @media screen and (max-width: 480px) {
-    html,
-    body {
-        font-size: 8px;
-    }
+    
+  
     section {
         padding-top: 20px;
     }
@@ -674,7 +672,7 @@ h2 {
     }
 	html,
 body {
-    
+    font-size: 7px;
     width: 100%;
     height: 100%;
     margin: 0;
