@@ -207,13 +207,14 @@ ul li {
 
 .menu-items {
     position: fixed;
-    width: 0;
+    width: 50%;
     height: 100vh;
     top: 0;
     left: 0;
     overflow: hidden;
     background: rgba(12, 12, 12, 0.842);
     z-index: 999;
+    display : none;
 }
 
 .menu-items .close-bar ion-icon {
