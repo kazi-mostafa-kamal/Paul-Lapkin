@@ -116,7 +116,7 @@ ul li {
 }
 
 #hero .hero-text {
-    width: 1180px;
+    width: 80%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -672,11 +672,14 @@ h2 {
     }
 	html,
 body {
-    font-size: 7px;
+    font-size: 6px;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     Overflow-x: hidden ;
+}
+#hero .hero-text {
+	font-size: 200%
 }
 }
