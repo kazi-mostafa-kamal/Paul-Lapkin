@@ -20,9 +20,9 @@ $(document).ready(function() {
     });
 })
 function openMenu() {
-    document.getElementById('navbar').style.width = '50%'
+    document.getElementById('navbar').style.display = 'block'
 }
 
 function cloceMenu() {
-    document.getElementById('navbar').style.width = '0'
+    document.getElementById('navbar').style.display = 'none'
 }
