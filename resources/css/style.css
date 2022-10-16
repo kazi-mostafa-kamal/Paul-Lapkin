@@ -94,6 +94,7 @@ ul li {
     color: #fff;
     padding: 45px 0;
     width: 100%;
+    position: relative;
     
 }
 
@@ -117,9 +118,9 @@ ul li {
 }
 
 #hero .hero-text {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -166,7 +167,7 @@ ul li {
 }
 
 .down-button {
-    position: relative;
+    position: absolute;
     right: 0;
     left: 0;
     bottom: 45px;
