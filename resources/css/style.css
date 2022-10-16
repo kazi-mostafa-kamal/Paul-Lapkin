@@ -94,7 +94,7 @@ ul li {
     color: #fff;
     padding: 45px 0;
     width: 100%;
-    position: relative;
+    
 }
 
 #hero .menu-bar a ion-icon {
@@ -119,7 +119,7 @@ ul li {
 #hero .hero-text {
     width: 80%;
     margin: auto;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -166,7 +166,7 @@ ul li {
 }
 
 .down-button {
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     bottom: 45px;
