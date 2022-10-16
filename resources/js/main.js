@@ -19,10 +19,13 @@ $(document).ready(function() {
         return true
     });
 })
-function openMenu() {
+$(document).ready(function(){
+   function openMenu() {
     document.getElementById('navbar').style.display = 'block'
 }
 
 function cloceMenu() {
     document.getElementById('navbar').style.display = 'none'
-}
+} 
+})
+
