@@ -93,7 +93,8 @@ ul li {
     height: 100%;
     color: #fff;
     padding: 45px 0;
-    width: 100%
+    width: 100%;
+    position: relative;
 }
 
 #hero .menu-bar a ion-icon {
