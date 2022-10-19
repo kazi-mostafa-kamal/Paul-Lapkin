@@ -681,7 +681,12 @@ body {
     padding: 0;
     Overflow-x: hidden ;
 }
-#hero .hero-text {
-	font-size: 200%
+#hero .hero-text h1{
+	font-size: 300%
 }
+#hero .hero-text p{
+	font-size:140%
+}
+	
+	
 }
