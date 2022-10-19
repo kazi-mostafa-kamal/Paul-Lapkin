@@ -8,10 +8,11 @@
 <link href=./vendors/css/uikit.min.css rel=stylesheet>
 <link href=vendors/css/normalize.css rel=stylesheet>
 <link href=resources/css/style.css rel=stylesheet>
-<header class=sagor id=hero>
-    <nav uk-sticky="start: 500">
+
+<header class='sagor' id='hero'>
+    <nav uk-sticky="start: 200">
         <div class="row sk">
-            <div class=logo><img alt=pk src=resources/img/logo.png></div>
+            <div class='logo'><img alt=pk src=resources/img/logo.png></div>
             <div class=menu-bar>
                 <a>
                     <ion-icon name=list-outline onclick=openMenu()></ion-icon>
@@ -34,10 +35,7 @@
         </div>
     </nav>
     <div class=hero-text>
-        <h1 uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Paul Lapkin</h1>
-        <br>
-        <span>#User Experience #Music #Creative Direction</span>
-    </div>
+        <h1 uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Paul Lapkin</h1><br><span>#User Experience #Music #Creative Direction</span></div>
     <div class=down-button>
         <a href=#about-area>
             <ion-icon name=chevron-down-outline></ion-icon>
@@ -194,14 +192,14 @@
                             <ion-icon name=logo-pinterest></ion-icon>
                         </a>
                         <li>
-                            <a href="#">
+                            <a href="">
                                 <ion-icon name=logo-bitcoin></ion-icon>
                             </a>
         </ul>
     </div>
     <div class=footer-text>
         <p>Copyright: Ali Sayed, All Rights Reserved.</div>
-    <div class=top-up><a href="#hero" uk-scroll uk-totop></a></div>
+    <div class=top-up><a href="#hero" uk-totop uk-scroll></a></div>
 </footer>
 <script src=vendors/js/jquery-3.6.1.min.js></script>
 <script src=./vendors/js/uikit.min.js></script>
