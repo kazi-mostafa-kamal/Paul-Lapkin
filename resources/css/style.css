@@ -144,7 +144,7 @@ ul li {
 }
 
 #hero .hero-text h1::before {
-    content: "";
+    content: " ";
     width: 100%;
     height: 1px;
     display: block;
@@ -253,6 +253,9 @@ ul li {
 
 .menu ul li:hover a {
     color: rgb(248, 238, 238);
+}
+particles-js-canvas-el{
+    z-index: 0;
 }
 
 /* ===================================== 2 about-area ========================================*/
@@ -592,12 +595,7 @@ h2 {
     color: #ff2b4a;
 }
 
-.uk-icon {
-    font-size: 800%;
-    font-weight: 700;
-    border: 1px solid #fff;
-    padding: 20px 15px;
-}
+
 
 .top-up a.uk-totop:hover {
     background: #fff;
@@ -682,11 +680,6 @@ body {
     Overflow-x: hidden ;
 }
 #hero .hero-text h1{
-	font-size: 300%
+	font-size: 550%
 }
-#hero .hero-text p{
-	font-size:140%
-}
-	
-	
 }
